@@ -11,6 +11,7 @@ ul li{
 }
 a{
     text-decoration: none;
+    outline: none;
 }
 header{
     display: flex;
@@ -559,4 +560,174 @@ form input:focus{
 }
 .third-contact button:hover{
     background-color: #9b968f;
+}
+
+/* services page */
+.header{
+    position: static;
+}
+.services{
+    color: #fff;
+    width: 1360px;
+    margin: auto;
+    margin-top: 30px;
+}
+.first-services,.second-services,.last-services{
+    display: flex;
+}
+.services-box{
+    width: 339px;
+    height: 422px;
+    border: 1px solid #9A8A78;
+}
+.first-sevices-text{
+    background-color: #9A8A78;
+}
+.first-sevices-text h2{
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    width: 220px;
+    margin: auto;
+    margin-top: 130px;
+}
+.services-box-text h3{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #9A8A78;
+    width: 220px;
+    margin: auto;
+    margin-top: 80px;
+}
+.services-box-text p{
+    font-size: 16px;
+    width: 220px;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    line-height: 2;
+    margin-top: 35px;
+}
+.dif-text h3{
+    margin-top: 70px;
+}
+.dif-text p{
+    margin-top:5px;
+}
+.services-img img{
+    width: 339px;
+    height: 422px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.last-sevices-text h2{
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #9A8A78;
+    width: 220px;
+    margin: auto;
+    margin-top: 100px;
+}
+.last-services-box ul li{
+    list-style: disc;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+    line-height: 2;
+}
+.last-services-box ul{
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+.last-services-box h3{
+    font-size: 25px;
+    width: 230px;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-top: 100px;
+}
+/* projects page */
+.projects-names{
+    width: 1360px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    margin-top: 30px;
+}
+.project-name{
+    width: 337px;
+    height: 401px;
+    border: 1px solid #9A8A78;
+}
+.first-project-text{
+    background-color: #9A8A78;
+}
+.first-project-text h2{
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    width: 230px;
+    margin: auto;
+    margin-top: 130px;
+}
+.project-name a h2{
+    color: #9A8A78;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    width: 230px;
+    margin: auto;
+    margin-top: 140px;
+}
+.projects-list h2{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #9A8A78;
+    margin:100px 0px 15px 0px;
+}
+.projects-list p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 627px;
+    line-height: 1.7;
+}
+.project-pictures{
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #9A8A78;
+}
+.first-project-picture{
+    width: 415px;
+    height: 622px;
+}
+.second-project-picture{
+    width: 415px;
+    height: 277px;
+}
+.diff-picture{
+    margin-top: 50px;
+}
+.diff-picture-second{
+    margin-bottom: 50px;
+}
+.third-project-picture{
+    width: 415px;
+    height: 493px;
+}
+.grove-street{
+    margin-bottom: 50px;
+}
+.last-project-pictures{
+    border: none;
+}
+.diff-picture-grove{
+    margin-right: 60px;
 }
