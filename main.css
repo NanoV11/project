@@ -5,6 +5,8 @@ body{
     margin: 0;
     padding: 0;
     background-color: #262626;
+    max-width: 2000px;
+    width: 100%;
 }
 ul li{
     list-style: none;;
@@ -74,12 +76,12 @@ header{
 }
 
 .relative-img img{
-    max-width: 100%;
+    width: 100%;
 }
 .color-over{
     background-color: rgba(54, 54, 54, 0.582);
-    width: 1519px;
-    height: 939px;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
 
